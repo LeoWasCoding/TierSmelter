@@ -21,7 +21,6 @@ use pocketmine\world\particle\HugeExplodeParticle;
 use pocketmine\world\sound\ExplodeSound;
 use pocketmine\world\sound\NoteSound;
 use pocketmine\world\sound\NoteInstrument;
-use pocketmine\world\sound\NoteInstrument::PIANO;
 use jojoe77777\FormAPI\SimpleForm;
 use jojoe77777\FormAPI\CustomForm;
 
