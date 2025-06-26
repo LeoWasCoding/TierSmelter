@@ -1,0 +1,16 @@
+name: TierSmelter
+main: tiersmelter\Main
+version: 1.0.0
+api: 5.0.0
+author: LeoWasCoding
+
+commands:
+  tiersmelter:
+    description: "Manage blast furnace tiers and their smelting speeds."
+    permission: tiersmelter.command.admin
+    aliases: [ts]
+
+permissions:
+  tiersmelter.command.admin:
+    description: "Allows usage of the /tiersmelter command."
+    default: op
