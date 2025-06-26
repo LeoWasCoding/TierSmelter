@@ -490,7 +490,7 @@ class Main extends PluginBase implements Listener {
                 }
 
                 // ding sound
-                $pos->getWorld()->addSound($pos, new NoteSound(NoteInstrument::PLING, 1));
+                $pos->getWorld()->addSound($pos, new NoteSound(NoteInstrument::PIANO, 1));
 
                 $data["ticksProgress"] = 0;
 
