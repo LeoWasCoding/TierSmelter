@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types=-1);
 
 namespace tiersmelter;
 
@@ -63,10 +63,6 @@ class Main extends PluginBase implements Listener {
 
         if (count($args) < 1) {
             $this->openMainForm($sender);
-            return true;
-        }
-        if (count($args) < 1) {
-            $sender->sendMessage(TextFormat::YELLOW . "Usage: /tiersmelter <create|delete|list|set>");
             return true;
         }
         if (isset($args[0]) && strtolower($args[0]) === "tutorial") {
