@@ -485,7 +485,7 @@ class Main extends PluginBase implements Listener {
                     $inventory->setItem(2, $output->setCount($output->getCount() + 1));
                 }
 
-                // ding sound
+                /** @phpstan-ignore-next-line */
                 $pos->getWorld()->addSound($pos, new NoteSound(NoteInstrument::PIANO, 1));
 
                 $data["ticksProgress"] = 0;
